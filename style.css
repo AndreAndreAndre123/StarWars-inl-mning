@@ -1,0 +1,109 @@
+* {
+  color: yellow;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fieldset .drop {
+  text-align: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.fieldset .drop:focus, .fieldset .drop:hover {
+  outline: none;
+  border: solid 1px yellow;
+}
+
+.get-char-btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.get-char-btn-div .get-char-btn {
+  padding: 22px;
+  font-size: 20px;
+}
+
+.characterCointainerBoth {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.characterCointainerBoth .charDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  border-top: 1px solid yellow;
+}
+
+.characterCointainerBoth .charDiv .btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.characterCointainerBoth .character-pic {
+  height: 300px;
+  width: 200px;
+}
+
+.characterCointainerBoth .char-text {
+  text-align: center;
+  margin-top: 30px;
+  width: 200px;
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
