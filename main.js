@@ -88,7 +88,7 @@ let getChar = async() =>{
     })
   });
 } 
-getChar()
+
 
 class Character{
     constructor(name, gender, height, mass, hair_color, pictureUrl){
