@@ -4,8 +4,11 @@ const fetchData = async (URL) =>{
     let json = await response.json();
     return json;
 }
+let loading = document.querySelector(".loding");
+loading.style.display ="none"
 
 let getChar = async() =>{ 
+    loading.style.display =""
     //get gropdowns
     let drop1 = document.querySelector("select[name='drop1']");
     let drop2 = document.querySelector("select[name='drop2']");
@@ -87,6 +90,7 @@ let getChar = async() =>{
         }   
     })
   });
+  loading.style.display ="none"
 } 
 
 
